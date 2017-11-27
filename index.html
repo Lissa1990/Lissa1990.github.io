@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Academy: Седона</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style-min.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="main-header">
+                <div class="wraper">
+                    <img src="img/logo.png" alt="Sedona" width="138" height="70">
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+        			    <li class="list-item"><a class="main-item" href="#">Информация</a></li>
+        			    <li class="list-item"><a class="main-item" href="#">Фото и видео</a></li>
+        			    <li class="list-item"><a class="main-item" href="#">Карта штата</a></li>
+        			    <li class="list-item"><a class="main-item" href="hotels.html">Гостиницы</a></li>
+        		    </ul>
+        	    </nav>
+            </header>
+            <main class="main-content">
+                <section class="welcome">
+                    <h1 class="visually-hidden">Sedona</h1>      
+                    <img src="img/welcome.png" alt="welcome" width="458" height="352">
+                </section>
+                <section class="advantage">                           
+        	        <section class="sedona">
+                        <h3 class="visually-hidden">Town</h3>    
+        	            <b>Седона − небольшой городок в Аризоне, заслуживающий большего!</b>
+        	            <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+                    </section>
+        	        <section class="advantage-item">
+                        <div class="item-content town">
+                            <h3 class="caption">Настоящий городок</h3>
+        			        <span>− №1 −</span>
+        			        <p>Седона − не аттракцион для туристов, там течет своя жизнь</p>
+                        </div>
+        			    <img src="img/town.jpg" alt="Настоящий городок" width="800" height="256">
+                    </section>
+                    <section class="advantage-service">
+        			    <ul>
+        				    <li class="service-item housing">
+                                <h3 class="caption">Жилье</h3>
+        					    <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        				    </li>
+        				    <li class="service-item food">
+                                <h3 class="caption">Еда</h3>
+        					    <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        				    </li>
+        				    <li class="service-item souvenir">
+                                <h3 class="caption">Сувениры</h3>
+        					    <p>Не только китайского, но и местного производства!</p>
+        				    </li>
+        			    </ul>
+        		    </section>
+                    <section class="advantage-item">
+        			    <img src="img/advantage.jpg" alt="Мост дьявола" width="800" height="256">
+                        <div class="item-content bridge">
+        			        <h3 class="caption">Там есть<br>
+                             мост дьявола</h3>
+        			        <span>− №2 −</span>
+        			        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                        </div>
+        		    </section>
+                    <section class="advantages-list">
+                        <ul class="advantages-list">
+        			        <li class="item-content item-list">
+        				        <h3 class="caption">Небольшая площадь</h3>
+        				        <span>− №3 −</span>
+        				        <p class="area">Все достопримечательности находятся очень близко</p>
+        			        </li>
+        			        <li class="item-content item-list">
+        				        <h3 class="caption">Красивая дорога</h3>
+        				        <span>− №4 −</span>
+        				        <p class="road">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        			        </li>
+        			        <li class="item-content item-list">
+        				        <h3 class="caption tourist">Мало туристов</h3>
+        				        <span>− №5 −</span>
+        				        <p>Большинство едет в Гранд Каньон и толпиться там</p>
+        			        </li>
+        		        </ul>
+        	        </section>
+                </section>
+        	    <section class="form">
+                    <section class="headline">
+        	            <h2 class="title">Заинтересовались?</h2>
+        		        <p class="form-description">Укажите предполагаемые даты поездки,<br>
+                         и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        		        <a href="#" class="btn btn-brown">Поиск гостиницы в Седоне</a>
+                    </section>
+                    <section class="map">
+                        <h2 class="visually-hidden">Карта</h2>
+                        <img src="img/map.jpg" alt="Карта Седоны" width="1200" height="593">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498362.2947334583!2d-111.98609752236113!3d34.85641045061852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1504640515507" width="1200" height="593" style="border:0" allowfullscreen></iframe>
+                    </section>
+                   <section class="form-search">
+        		        <form method="post" action="https://echo.htmlacademy.ru/">
+        			        <p class="date date-on">
+        				        <label for="date-on">Дата заезда: </label>
+        				        <input class="field" type="text" name="date-on" id="date-on" placeholder="24 апреля 2017"> 
+                                <button class="calendar"><span class="visually-hidden">Календарь</span></button>
+        			        </p>
+        			        <p class="date date-off">
+        				        <label for="date-off">Дата выезда: </label>
+        				        <input class="field" type="text" name="date-off" id="date-off" placeholder="4 июля 2017">
+                                <button class="calendar"><span class="visually-hidden">Календарь</span></button>
+        			        </p>
+        			        <div class="form-people">
+        				        <label for="grownups">Взрослые: </label>
+                                <fieldset class="wraper-push">
+                                    <button class="push" type="button">−</button>
+        				            <input class="field" type="text" name="grownups" id="grownups" placeholder="2">
+                                    <button class="push" type="button">+</button>
+                                </fieldset>
+        				        <label class="baby" for="children">Дети: </label>
+                                <fieldset class="wraper-push push-child">
+                                    <button class="push" type="button">−</button>
+        				            <input class="field" type="text" name="children" id="children" placeholder="0">
+                                    <button class="push" type="button">+</button>
+                                </fieldset>
+        			            <input class="btn btn-blue" type="submit" name="button" value="Найти">
+                            </div>
+        		        </form>
+                    </section>
+        	    </section>
+            </main>
+            <footer class="main-footer">
+                <span class="visit">#VisitSedona</span>
+            	<ul class="social">
+            		<li><a href="#" class="social-item btn-tw"><span class="visually-hidden">Twitter</span></a></li>
+            		<li><a href="#" class="social-item btn-fb"><span class="visually-hidden">Facebook</span></a></li>
+            		<li><a href="#" class="social-item btn-yt"><span class="visually-hidden">Youtube</span></a></li>
+            	</ul>
+                <p class="academy">
+        	        <span class="web">Website by</span>
+        	        <a href="https://htmlacademy.ru/intensive/htmlcss"><span class="visually-hidden">HTML Academy</span></a>
+                </p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="js/script-min.js"></script>
+    </body>
+</html>
